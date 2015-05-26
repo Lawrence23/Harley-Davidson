@@ -81,11 +81,17 @@ ul.other-links {
 	font-size: 12px;
 }
 
-.slider {
-	display: block;
-    margin-left: auto;
-    margin-right: auto;	
-    width: 100%;
+#main-content{
+	background: url(../assets/images/img2.jpg) 50% 0% no-repeat;
+	background-color: #000;
+	/* -webkit-background-size: cover;
+	  	-moz-background-size: cover;
+	  	-o-background-size: cover; */
+	background-size: cover;
+	background-position: center center; 
+  	padding: 400px 150px 20px 150px;
+  	text-align: justify;
+  	font-size: 15px;
 }
 
 footer {
