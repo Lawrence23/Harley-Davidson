@@ -1,0 +1,84 @@
+{
+    "country": [
+        {
+            "label": "India",
+            "states": [
+                {
+                    "label": "Kerala"
+                },
+                {
+                    "label": "Karnataka"
+                },
+                {
+                    "label": "Maharashtra"
+                },
+                {
+                    "label": "Goa"
+                },
+                {
+                    "label": "Punjab"
+                }
+            ]
+        },
+        {
+            "label": "USA",
+            "states": [
+                {
+                    "label": "Alaska"
+                },
+                {
+                    "label": "Connecticut"
+                },
+                {
+                    "label": "Oklahoma"
+                },
+                {
+                    "label": "South California"
+                },
+                {
+                    "label": "Texas"
+                }
+            ]
+        },
+        {
+            "label": "Italy",
+            "states": [
+                {
+                    "label": "Rome"
+                },
+                {
+                    "label": "Venice"
+                },
+                {
+                    "label": "Milan"
+                },
+                {
+                    "label": "Naples"
+                },
+                {
+                    "label": "Florence"
+                }
+            ]
+        },
+        {
+            "label": "France",
+            "states": [
+                {
+                    "label": "Britany"
+                },
+                {
+                    "label": "Burgundy"
+                },
+                {
+                    "label": "Lorraine"
+                },
+                {
+                    "label": "Picardy"
+                },
+                {
+                    "label": "Alsace"
+                }
+            ]
+        }
+    ]
+}

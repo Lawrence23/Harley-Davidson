@@ -1,0 +1,52 @@
+{
+    "bikes": [
+        {
+            "label": "SuperLow",
+            "value": "assets/images/bikes/SuperLow.jpg"
+        },
+        {
+            "label": "Iron 883",
+            "value": "assets/images/bikes/Iron883.jpg"
+        },
+        {
+            "label": "Forty-Eight",
+            "value": "assets/images/bikes/48.jpg"
+        },
+        {
+            "label": "Street Bob",
+            "value": "assets/images/bikes/StreetBob.jpg"
+        },
+        {
+            "label": "Fat Bob",
+            "value": "assets/images/bikes/FatBob.jpg"
+        },
+        {
+            "label": "Fat Boy",
+            "value": "assets/images/bikes/FatBoy.jpg"
+        },
+        {
+            "label": "Heritage Softail Classic",
+            "value": "assets/images/bikes/HeritageSoftailClassic.jpg"
+        },
+        {
+            "label": "Breakout",
+            "value": "assets/images/bikes/Breakout.jpg"
+        },
+        {
+            "label": "Night Rod Special",
+            "value": "assets/images/bikes/NightRod.jpg"
+        },
+        {
+            "label": "Street Glide Special",
+            "value": "assets/images/bikes/StreetGlideSpecial.jpg"
+        },
+        {
+            "label": "CVO Limited",
+            "value": "assets/images/bikes/CVOLimited.jpg"
+        },
+        {
+            "label": "Harley Davidson Street 750",
+            "value": "assets/images/bikes/Street750.jpg"
+        }
+    ]
+}

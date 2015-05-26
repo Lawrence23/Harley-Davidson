@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Harley-Davidson</title>
+    <link rel="icon" href="assets/images/favicon.ico" />
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+</head>
+<body>
+    <header>
+        <nav class="header">
+            <img class="logo" src="assets/images/hdLogo.png">
+            <div class="title">
+                HARLEY-DAVIDSON INDIA
+            </div>
+            <div class="navs">
+                <ul class="nav-link">
+                    <li><a href="index.html">HOME</a></li>
+                    <li class="current">
+                        <a href="form.html">
+                            <span class="current-link">BOOK YOUR RIDE!</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>   
+    <section class="content">
+        <h1>REGISTRATION FORM</h1>
+        <form class="contact-form" id="reg-form" action="index.html" method="post" name="contact-form">
+        <fieldset>
+            <ul>
+                <li>
+                    <input id="fname" name="fname" type="text" placeholder="First Name" required>
+                    <label for="fname">FIRST NAME</label>   
+                </li>
+                <li>
+                    <input id="lname" name="lname" type="text" placeholder="Last Name" required>
+                    <label for="lname">LAST NAME</label>    
+                </li>
+                <li>
+                    <input id="dob" name="dob" type="text" placeholder="Date of Birth" onchange="calcAge()" required>
+                    <label for="dob">DATE OF BIRTH</label>  
+                </li>
+                <li>
+                    <input id="ages" name="ages" type="text" value="" placeholder="Age" required>
+                    <label for="age">AGE</label>
+                </li>
+                <li>
+                    <label for="username" class="label-pos">GENDER</label>
+                    <input id="radio" name="radio" type="radio" value="Male" required/>MALE 
+                    <input id="radio" name="radio" type="radio" value="Female" required/>FEMALE
+                </li>
+                <li>
+                    <textarea id="address" name="textarea1" required></textarea>
+                    <label for="textarea1">ADDRESS</label>
+                </li>
+                <li>
+                    <label for="country">COUNTRY</label>
+                    <select name="country" class="country" id="sel_country" required> 
+                        <option value="0" selected="selected" class="s">Choose a Country</option>
+                    </select>
+                </li>
+                <li>
+                    <label for="state">STATE</label>
+                    <select name="state" class="state" id="sel_state" required> 
+                        <option value="0" selected="selected" class="s">Choose a State</option>
+                    </select>
+                </li>
+                <li>
+                    <label for="pass1">PASSWORD</label>
+                    <input name="pass1" id="pass1" type="password" required>
+                </li>
+                <li>
+                    <label for="pass2">CONFIRM PASSWORD</label>
+                    <input name="pass2" id="pass2" type="password" required>
+                   </li>
+                <li>
+                    <input id="tel" name="tel" type="text" onkeypress="return isNumberKey(event)" maxlength="10" required>
+                    <label for="icon_telephone">MOBILE NUMBER</label>
+                </li>
+                <li>
+                    <input id="mail" type="email" required>
+                    <label>E-MAIL ID</label>
+                </li>
+                <li>
+                    <label for="bikes">BIKE</label>
+                    <select name="bikes" class="bikes" id="sel_bikes" required> 
+                        <option value="0" selected="selected" class="s">Choose a Bike</option>
+                    </select>
+                </li>
+                <li>
+                    <div id="bike-img"></div>
+                </li>
+                <button class="submit" type="submit">SUBMIT</button>
+            </ul>
+        </fieldset>
+    </form>
+    </section>
+    <footer>
+        <section class="foot footer-logo">
+            <article class="footer-head">HARLEY-DAVIDSON INDIA</article>            
+        </section>
+        <section class="foot">
+            <ul class="nav-link">
+                <li><a href="">Site-Map</a></li>
+                <li><a href="">Contact Us</a></li>
+                <li><a href="">Company</a></li>
+            </ul>
+        </section>
+        <section class="foot">
+            <span>© 2001-2015 H-D. All rights reserved.</span>          
+            <ul class="nav-link other-links">
+                <li><a href=""><span>Legal Notice</span></a></li>
+                <li><a href=""><span>Privacy Policy</span></a></li>
+                <li><a href=""><span>Finance and warranty</span></a></li>
+                <li><a href=""><span>View Mobile H-D.com</span></a></li>
+            </ul>   
+        </section>
+        <section class="foot">
+            <article>Harley-Davidson.com provides local information for countries around the world. You are currently on H-D India. Switch countries to get the info that's right for you.</article>    
+        </section>
+    </footer>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/dropdown.js"></script>
+    <script type="text/javascript" src="js/bikes.js"></script>
+</body>
+</html>

@@ -1,0 +1,218 @@
+.content {
+	background-image: url(../assets/images/img4.jpg);
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	background-position: center center;
+  	padding-bottom: 40px;
+}
+h1 {
+	color: #4d4d4d;
+	font-size: 36px;
+	text-align: center;
+}
+.contact-form fieldset {   
+    background: -webkit-linear-gradient(90deg, #CCCCCC, #FFFFFF) repeat scroll 0 0 transparent;
+    background: -moz-linear-gradient(90deg, #CCCCCC, #FFFFFF) repeat scroll 0 0 transparent;
+    border: 1px solid #AAAAAA;
+    border-radius: 10px 10px 10px 10px;
+    padding: 20px 0px 35px 0px;
+    margin-top: 1%;
+    color: #000;
+    font-size: 14px;
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-form label {
+    width:150px;
+    margin-top: 3px;
+    display:inline-block;
+    float:left;
+    padding:3px;
+}
+.contact-form label.label-pos {
+	margin-top: 0px;
+    padding-top: 0px;
+}
+
+
+.contact-form ul {
+    width:750px;
+    list-style-type:none;
+    list-style-position:outside;
+    margin:0px;
+    padding:0px;
+}
+
+.contact-form li {
+    padding: 12px 0px 15px 70px;
+ 	position: relative;
+	display: block;
+  	width: 500px;
+ 	margin: auto
+}
+
+.contact-form span.error {
+    color: #b03535;
+    float: left;
+    padding-left: 156px;
+}
+
+.contact-form input#fname, 
+.contact-form input#lname,
+.contact-form input#dob,
+.contact-form input#ages,
+.contact-form input#pass1,
+.contact-form input#pass2,
+.contact-form input#tel,
+.contact-form input#mail {
+    height:20px; 
+    width:240px; 
+    padding:5px 8px;
+    border:1px solid #aaa;
+    -moz-border :1px solid #aaa;
+    box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+    border-radius:2px;
+    /* padding-right:30px; */
+    -moz-transition: padding .25s; 
+    -webkit-transition: padding .25s; 
+    -o-transition: padding .25s;
+    transition: padding .25s;
+}
+
+.contact-form textarea,
+.contact-form select { 
+    border:1px solid #aaa;
+    -moz-border :1px solid #aaa;
+    box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+    border-radius:2px;
+    padding-right:30px;
+    -moz-transition: padding .25s; 
+    -webkit-transition: padding .25s; 
+    -o-transition: padding .25s;
+    transition: padding .25s;
+}
+
+.contact-form textarea {
+	padding:8px; 
+	width:240px;
+}
+
+.contact-form select.country, .contact-form select.state, .contact-form select.bikes {
+	width: 260px;
+  	height: 32px;
+  	background-color: #fff;	
+}
+.country option, .state option, .bikes option {
+    color: #000;
+}
+
+.contact-form input#fname:focus, 
+.contact-form input#lname:focus,
+.contact-form input#dob:focus,
+.contact-form input#ages:focus,
+.contact-form input#pass1:focus,
+.contact-form input#pass2:focus,
+.contact-form input#tel:focus,
+.contact-form input#mail:focus,
+.contact-form textarea:focus,
+.contact-form select:focus{
+    background: #fff; 
+    border:1px solid #555; 
+    box-shadow: 0 0 3px #aaa; 
+    padding-right:70px;
+}
+
+.contact-form input#fname:focus:invalid, 
+.contact-form input#lname:focus:invalid,
+.contact-form input#dob:focus:invalid,
+.contact-form input#ages:focus:invalid,
+.contact-form input#pass1:focus:invalid,
+.contact-form input#pass2:focus:invalid,
+.contact-form input#tel:focus:invalid,
+.contact-form input#mail:focus:invalid,
+.contact-form textarea:focus:invalid  { /* when a field is considered invalid by the browser */
+    background: #fff url(../assets/images/invalid.png) no-repeat 98% center;
+    box-shadow: 0 0 5px #d45252;
+    border-color: #b03535
+}
+
+.contact-form input#fname:required:valid, 
+.contact-form input#lname:required:valid,
+.contact-form input#dob:required:valid,
+.contact-form input#ages:required:valid,
+.contact-form input#pass1:required:valid,
+.contact-form input#pass2:required:valid,
+.contact-form input#tel:required:valid,
+.contact-form input#mail:required:valid,
+.contact-form textarea:required:valid  { /* when a field is considered valid by the browser */
+    background: #fff url(../assets/images/valid.png) no-repeat 98% center;
+    box-shadow: 0 0 5px #5cd053;
+    border-color: #28921f;
+}
+
+.contact-form select:focus:invalid {
+	box-shadow: 0 0 5px #d45252;
+    border-color: #b03535
+}
+
+.contact-form select:required:valid {
+	box-shadow: 0 0 5px #5cd053;
+    border-color: #28921f;
+}
+.empty {
+    color: gray; 
+}
+
+.s {
+	display: none;
+}
+
+
+button.submit {
+    background-color: #68b12f;
+    background: -webkit-gradient(linear, left top, left bottom, from(#68b12f), to(#50911e));
+    background: -webkit-linear-gradient(top, #68b12f, #50911e);
+    background: -moz-linear-gradient(top, #68b12f, #50911e);
+    background: -ms-linear-gradient(top, #68b12f, #50911e);
+    background: -o-linear-gradient(top, #68b12f, #50911e);
+    background: linear-gradient(top, #68b12f, #50911e);
+    border: 1px solid #509111;
+    border-bottom: 1px solid #5b992b;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    box-shadow: inset 0 1px 0 0 #9fd574;
+    -webkit-box-shadow: 0 1px 0 0 #9fd574 inset ;
+    -moz-box-shadow: 0 1px 0 0 #9fd574 inset;
+    -ms-box-shadow: 0 1px 0 0 #9fd574 inset;
+    -o-box-shadow: 0 1px 0 0 #9fd574 inset;
+    color: white;
+    font-weight: bold;
+    padding: 6px 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;    
+    text-shadow: 0 -1px 0 #396715;
+}
+button.submit:hover {
+    opacity:.85;
+    cursor: pointer; 
+}
+button.submit:active {
+    border: 1px solid #20911e;
+    box-shadow: 0 0 10px 5px #356b0b inset; 
+    -webkit-box-shadow:0 0 10px 5px #356b0b inset ;
+    -moz-box-shadow: 0 0 10px 5px #356b0b inset;
+    -ms-box-shadow: 0 0 10px 5px #356b0b inset;
+    -o-box-shadow: 0 0 10px 5px #356b0b inset;
+}
+#bike-img img {
+	max-width: 83%;
+   	border: 2px solid;
+}

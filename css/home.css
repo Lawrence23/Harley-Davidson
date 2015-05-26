@@ -1,0 +1,135 @@
+@font-face {
+	font-family: TradeGothic-CnBold;
+    src: url('../assets/fonts/trade-gothic-bold-1361519978.otf'); 
+}
+
+body {
+	color: #f5f5f5;
+	font-size: 13px;
+  	line-height: 1.4;
+  	font-family: "TradeGothic-CnBold";
+}
+a {
+	text-decoration: none;
+}
+a:link {
+    color: #FFF;
+}
+a:visited {
+    color: #FFF;
+}
+a:hover {
+    color: #F60;
+}
+a:active {
+    color: #F60;
+}
+.current-link {
+    color: #F60;
+}
+.current > a {
+       pointer-events: none;
+       cursor: default;
+}
+header {
+	background-color: #212121;
+	background-image: url(../assets/images/header.png);
+	background-position: 0px 0px;
+}
+nav.header {
+	margin-left: 150px;
+}
+img.logo {
+	width: 75px;
+	padding: 3px;
+}
+.title {
+	position: absolute;
+	top:10px;
+	left: 245px;
+	font-size: 17px;
+	font-family: "TradeGothic-CnBold";	
+}
+.navs {
+	position: absolute;
+	top: 40px;
+	left: 245px;
+}
+ul.nav-link {
+	display: flex;
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	font-family: "TradeGothic-CnBold";
+	font-size: 15px;
+}
+ul.nav-link li:before {
+content: "	||	";
+}
+ul.nav-link li:first-child:before {
+content: none;
+}
+ul.nav-link li {
+	padding-right: 5px;
+}
+ul.other-links {
+	display: inline-flex;
+	padding-left: 10px;
+}
+.foot ul.nav-link {
+	font-family: "Arial";
+	font-size: 12px;
+}
+
+.slider {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;	
+    width: 100%;
+}
+
+footer {
+	background-color: #575656;;
+	height: 20%;
+	overflow: hidden;
+	padding-bottom: 50px;
+}
+
+.foot {
+	margin-left: 150px;
+	padding-top: 15px;
+	font-family: Arial;
+}
+.footer-logo {
+	background-image: url(../assets/images/logo.png);
+	background-repeat: no-repeat;
+	background-position: 0% 100%;
+	font-family: "TradeGothic-CnBold";
+	font-size: 14px;
+}
+.footer-head {
+	margin-left: 30px;
+}
+.copyright {
+	display: inline;
+}
+/* ul.nav-link>li+li {
+	border-left: 1px solid #fff;
+}
+ul.link>li {
+	padding: 0px 6px 0px 0px;
+} */
+/* .row {
+    min-height: 150px;
+
+}
+div.col1 {
+    float: left;
+	width: 45%;
+	padding-left: 5%;
+}
+div.col2 {
+	float: right;	
+	width: 45%;
+	padding-left: 5%;
+} */
