@@ -84,9 +84,9 @@ ul.other-links {
 #main-content{
 	background: url(../assets/images/img2.jpg) 50% 0% no-repeat;
 	background-color: #000;
-	/* -webkit-background-size: cover;
-	  	-moz-background-size: cover;
-	  	-o-background-size: cover; */
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 	background-size: cover;
 	background-position: center center; 
   	padding: 400px 150px 20px 150px;
@@ -119,23 +119,58 @@ footer {
 .copyright {
 	display: inline;
 }
-/* ul.nav-link>li+li {
-	border-left: 1px solid #fff;
-}
-ul.link>li {
-	padding: 0px 6px 0px 0px;
-} */
-/* .row {
-    min-height: 150px;
 
-}
-div.col1 {
-    float: left;
-	width: 45%;
-	padding-left: 5%;
-}
-div.col2 {
-	float: right;	
-	width: 45%;
-	padding-left: 5%;
-} */
+ @media only screen and (min-width: 300px) and (max-width: 400px) {
+ 	header {
+ 		background-position: center center;
+  		height: 118px;
+  		background-repeat: no-repeat;
+ 	}
+ 	nav.header {
+		margin-left: 0px;
+  		text-align: center;
+	}
+	.title {
+		top: 66px;
+  		left: 69px;
+	}
+	.navs {
+		top: 89px;
+ 		left: 82px;
+	}
+	#main-content{
+		background-size: 210%;
+		padding: 225px 150px 20px 150px;
+	}
+	footer {
+		padding-bottom: 20px;
+	}
+	.foot {
+		margin-left: 0px;
+		text-align: center;	
+	}
+	.foot .nav-link {
+		margin-left: 72px;
+	}
+	.foot .other-links {
+		margin-left: 0px;
+	}
+	.footer-head {
+		margin-left: 15px;
+	}
+	.footer-logo {
+		background-position: 23% 100%;
+	}
+	ul.nav-link li:before {
+		content: "";
+	} 	
+ }
+
+@media only screen and (min-width: 401px) and (max-width: 800px) {
+	nav.header {
+		margin-left: 0px;
+	}
+	.foot {
+		margin-left: 0px;
+	}
+}	
