@@ -1,5 +1,5 @@
 .content {
-	background-image: url(../assets/images/img4.jpg);
+	background-image: url(../assets/images/img5.jpg);
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
@@ -7,11 +7,7 @@
   	background-position: center center;
   	padding-bottom: 40px;
 }
-h1 {
-	color: #4d4d4d;
-	font-size: 36px;
-	text-align: center;
-}
+
 .contact-form fieldset {   
     background: -webkit-linear-gradient(90deg, #CCCCCC, #FFFFFF) repeat scroll 0 0 transparent;
     background: -moz-linear-gradient(90deg, #CCCCCC, #FFFFFF) repeat scroll 0 0 transparent;
