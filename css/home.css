@@ -45,15 +45,15 @@ img.logo {
 }
 .title {
 	position: absolute;
-	top:10px;
-	left: 245px;
+	margin-top: -60px;
+  	margin-left: 95px;
 	font-size: 17px;
 	font-family: "TradeGothic-CnBold";	
 }
 .navs {
 	position: absolute;
-	top: 40px;
-	left: 245px;
+	margin-top: -32px;
+  	margin-left: 95px;
 }
 ul.nav-link {
 	display: flex;
@@ -122,21 +122,22 @@ footer {
 
  @media only screen and (min-width: 300px) and (max-width: 400px) {
  	header {
- 		background-position: center center;
+ 		background-size: contain;
   		height: 118px;
-  		background-repeat: no-repeat;
- 	}
+  	}
  	nav.header {
 		margin-left: 0px;
   		text-align: center;
 	}
 	.title {
-		top: 66px;
-  		left: 69px;
+		text-align: center;
+  		position: inherit;
+  		margin-left: 0px;
+  		margin-top: 0px;
 	}
 	.navs {
-		top: 89px;
- 		left: 82px;
+		margin-top: 0px;
+  		  margin-left: 27%;
 	}
 	#main-content{
 		background-size: 210%;
@@ -166,11 +167,14 @@ footer {
 	} 	
  }
 
-@media only screen and (min-width: 401px) and (max-width: 800px) {
+@media only screen and (min-width: 1440px) and (max-width: 1980px) {
 	nav.header {
-		margin-left: 0px;
+		margin-left: 300px;
 	}
 	.foot {
-		margin-left: 0px;
+		margin-left: 300px;
+	}
+	#main-content{
+		padding-top: 800px;
 	}
 }	
