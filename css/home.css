@@ -166,13 +166,23 @@ footer {
 		content: "";
 	} 	
  }
-
-@media only screen and (min-width: 1440px) and (max-width: 1980px) {
+@media only screen and (min-width: 1440px) and (max-width: 1750px) {
 	nav.header {
-		margin-left: 300px;
+		margin-left: 175px;
 	}
 	.foot {
-		margin-left: 300px;
+		margin-left: 175px;
+	}
+	#main-content{
+		padding-top: 620px;
+	}
+}	
+@media only screen and (min-width: 1751px) and (max-width: 1980px) {
+	nav.header {
+		margin-left: 275px;
+	}
+	.foot {
+		margin-left: 275px;
 	}
 	#main-content{
 		padding-top: 800px;
