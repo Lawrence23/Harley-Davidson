@@ -1,50 +1,62 @@
 {
     "bikes": [
         {
+            "id": "bike1",
             "label": "SuperLow",
             "value": "assets/images/bikes/SuperLow.jpg"
         },
-        {
+        {   
+            "id": "bike2",
             "label": "Iron 883",
             "value": "assets/images/bikes/Iron883.jpg"
         },
         {
+            "id": "bike3",
             "label": "Forty-Eight",
             "value": "assets/images/bikes/48.jpg"
         },
         {
+            "id": "bike4",
             "label": "Street Bob",
             "value": "assets/images/bikes/StreetBob.jpg"
         },
         {
+            "id": "bike5",
             "label": "Fat Bob",
             "value": "assets/images/bikes/FatBob.jpg"
         },
         {
+            "id": "bike6",
             "label": "Fat Boy",
             "value": "assets/images/bikes/FatBoy.jpg"
         },
         {
+            "id": "bike7",
             "label": "Heritage Softail Classic",
             "value": "assets/images/bikes/HeritageSoftailClassic.jpg"
         },
         {
+            "id": "bike8",
             "label": "Breakout",
             "value": "assets/images/bikes/Breakout.jpg"
         },
         {
+            "id": "bike9",
             "label": "Night Rod Special",
             "value": "assets/images/bikes/NightRod.jpg"
         },
         {
+            "id": "bike10",
             "label": "Street Glide Special",
             "value": "assets/images/bikes/StreetGlideSpecial.jpg"
         },
         {
+            "id": "bike11",
             "label": "CVO Limited",
             "value": "assets/images/bikes/CVOLimited.jpg"
         },
         {
+            "id": "bike12",
             "label": "Harley Davidson Street 750",
             "value": "assets/images/bikes/Street750.jpg"
         }
