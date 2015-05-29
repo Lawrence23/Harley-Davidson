@@ -138,12 +138,15 @@ ul.nav-link li {
 .imgslider {
  	display: block;
   	margin: auto;
-  	width: 40%;
+  	width: 45%;
+  	float: left
 }
-
-.hiiden {
+.bike-content {
 	display: none;   
-	
+}
+table {
+		
+	font-size: 20px;
 }
 .fancybox-title a {
  color: #fff;        
