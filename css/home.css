@@ -90,10 +90,10 @@ ul.nav-link li {
 #main-content{
 	background: url(../assets/images/img2.jpg) 50% 0% no-repeat;
 	background-color: #000;
-	/* -webkit-background-size: cover;
+	-webkit-background-size: cover;
 	-moz-background-size: cover;
-	-o-background-size: cover; */
-	background-size: 100% 100%;
+	-o-background-size: cover; 
+	background-size: cover;
 	background-position: center center; 
   	padding: 20% 0% 20% 0%;
   	text-align: justify;
@@ -141,7 +141,7 @@ ul.nav-link li {
   	width: 40%;
 }
 
-.content {
+.hiiden {
 	display: none;   
 	
 }

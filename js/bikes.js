@@ -1,7 +1,7 @@
 $(document).ready(function() {
   $(".fancybox").fancybox();
 	var $container = $('#gallery-container');
-  var $content = $('.content');
+  var $content = $('.hiiden');
   $.getJSON('assets/json/bikes.JSON', function(data) {
 	  $.each(data.bikes,function(key,value) {
       $container.append('<div class="gallery"><a class="fancybox" rel="group" href="#'+value.id+'"><img src="'+ value.value +'"></a><span class="caption">'+value.label+'</span></div>');
