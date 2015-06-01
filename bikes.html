@@ -1,17 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Harley-Davidson</title>
 	<link rel="icon" href="assets/images/favicon.ico" />
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/home.css">
-	<!-- <link rel="stylesheet" href="css/lightbox.css"> -->
-	<link rel="stylesheet" href="css/jquery.fancybox.css">
-	<link rel="stylesheet" href="css/helpers/jquery.fancybox-buttons.css">
-	<link rel="stylesheet" href="css/helpers/jquery.fancybox-thumbs.css">
-
-
 </head>
 <body>
 	<header>
@@ -24,16 +18,18 @@
 				<ul class="nav-link">
 					<li><a href="index.html">HOME</a></li>
 					<li class="current">
-						<a href="bikes.html"><span class="current-link">BIKES</span></a>
+						<a href="bikes.html"><span class="current-link">MOTORCYCLES</span></a>
 					</li>
 					<li><a href="form.html">BOOK YOUR RIDE!</a></li>
 				</ul>
 			</div>
 		</nav>
 	</header>	
-	<section id="gallery-container">
-		<h1 id="title">BIKES</h1>
-		<div class="bike-content"></div>
+	<section id="container">
+		<h1 id="title">MOTORCYCLES</h1>
+		<div class="gallery-container"></div>
+		<div class="popup-container"></div>
+		<div id="fade" class="black_overlay"></div>
 	</section>
 	<footer>
 		<section class="foot footer-logo">
@@ -59,12 +55,7 @@
 			<article>Harley-Davidson.com provides local information for countries around the world. You are currently on H-D India. Switch countries to get the info that's right for you.</article>	
 		</section>
 	</footer>
-	<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
-	<!-- <script type="text/javascript" src="js/lightbox.min.js"></script> -->
-	<script type="text/javascript" src="js/jquery.fancybox.pack.js"></script>
+	<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
 	<script type="text/javascript" src="js/bikes.js"></script>
-	<script type="text/javascript" src="css/helpers/jquery.fancybox-buttons.js"></script>
-	<script type="text/javascript" src="css/helpers/jquery.fancybox-media.js"></script>
-	<script type="text/javascript" src="css/helpers/jquery.fancybox-thumbs.js"></script>
 </body>
 </html>
