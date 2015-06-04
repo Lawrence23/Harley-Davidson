@@ -2,6 +2,7 @@
     "bikes": [
         {
             "id": "1",
+            "imgId": "img1",
             "label": "SuperLow",
             "value": "assets/images/bikes/SuperLow.jpg",
             "price": "Rs. 6,32,000",
@@ -19,6 +20,7 @@
         },
         {   
             "id": "2",
+            "imgId": "img2",
             "label": "Iron 883",
             "value": "assets/images/bikes/Iron883.jpg",
             "price": "Rs. 7,22,000",
@@ -36,6 +38,7 @@
         },
         {
             "id": "3",
+            "imgId": "img3",
             "label": "Forty-Eight",
             "value": "assets/images/bikes/48.jpg",
             "price": "Rs. 8,82,000",
@@ -53,6 +56,7 @@
         },
         {
             "id": "4",
+            "imgId": "img4",
             "label": "Street Bob",
             "value": "assets/images/bikes/StreetBob.jpg",
             "price": "Rs. 10,37,000",
@@ -70,6 +74,7 @@
         },
         {
             "id": "5",
+            "imgId": "img5",
             "label": "Fat Bob",
             "value": "assets/images/bikes/FatBob.jpg",
             "price": "Rs. 13,03,500",
@@ -87,6 +92,7 @@
         },
         {
             "id": "6",
+            "imgId": "img6",
             "label": "Fat Boy",
             "value": "assets/images/bikes/FatBoy.jpg",
             "price": "Rs. 15,08,500",
@@ -104,6 +110,7 @@
         },
         {
             "id": "7",
+            "imgId": "img7",
             "label": "Heritage Softail Classic",
             "value": "assets/images/bikes/HeritageSoftailClassic.jpg",
             "price": "Rs. 16,45,500",
@@ -121,6 +128,7 @@
         },
         {
             "id": "8",
+            "imgId": "img8",
             "label": "Breakout",
             "value": "assets/images/bikes/Breakout.jpg",
             "price": "Rs. 16,30,500",
@@ -138,6 +146,7 @@
         },
         {
             "id": "9",
+            "imgId": "img9",
             "label": "Night Rod Special",
             "value": "assets/images/bikes/NightRod.jpg",
             "price": "Rs. 22,02,000",
@@ -155,6 +164,7 @@
         },
         {
             "id": "10",
+            "imgId": "img10",
             "label": "Street Glide Special",
             "value": "assets/images/bikes/StreetGlideSpecial.jpg",
             "price": "Rs. 29,91,000",
@@ -172,6 +182,7 @@
         },
         {
             "id": "11",
+            "imgId": "img11",
             "label": "CVO Limited",
             "value": "assets/images/bikes/CVOLimited.jpg",
             "price": "See your local dealer for pricing information.",
@@ -189,6 +200,7 @@
         },
         {
             "id": "12",
+            "imgId": "img12",
             "label": "Harley Davidson Street 750",
             "value": "assets/images/bikes/Street750.jpg",
             "price": "Rs. 4,32,500",
