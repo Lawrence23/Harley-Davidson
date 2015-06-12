@@ -212,3 +212,17 @@ button.submit:active {
 	max-width: 83%;
    	border: 2px solid;
 }
+
+@media only screen and (min-width: 320px) and (max-width: 350px) {
+    .contact-form fieldset {
+        width: auto;
+    }
+
+    .contact-form li {
+        padding: 0px 0px 0px 0px;
+        position: relative;
+        display: block;
+        width: auto;
+        margin: auto
+    }   
+}

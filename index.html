@@ -9,12 +9,15 @@
 </head>
 <body>
 	<header>
-		<nav class="header">
-			<img class="logo" src="assets/images/hdLogo.png">
+		<div class="header">
+			<div id="hov">
+				<a href="#"><img class="logo" src="assets/images/hdLogo.png"></a>
+			</div>
+			
 			<div class="title">
 				HARLEY-DAVIDSON INDIA
 			</div>
-			<div class="navs">
+			<nav class="navs">
 				<ul class="nav-link">
 					<li class="current">
 						<a href="index.html"><span class="current-link">HOME</span></a>
@@ -22,8 +25,18 @@
 					<li><a href="bikes.html">MOTORCYCLES</a></li>
 					<li><a href="form.html">BOOK YOUR RIDE!</a></li>
 				</ul>
+			</nav>
+
+			<div class="dropdown">
+				
+				<ul id="dropdown-menu">
+        			<li><a href="index.html">HOME</a></li>
+        			<li><a href="bikes.html">MOTORCYCLES</a></li>
+        			<li><a href="form.html">BOOK YOUR RIDE!</a></li>
+    			</ul>
 			</div>
-		</nav>
+
+		</div>
 	</header>	
 	<section id="main-content"></section>
 	<footer>
@@ -50,5 +63,7 @@
 			<article>Harley-Davidson.com provides local information for countries around the world.</article>	
 		</section>
 	</footer>
+	<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+	<script src="js/mobile-drop.js"></script>
 </body>
 </html>

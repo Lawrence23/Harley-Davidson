@@ -11,12 +11,15 @@
 </head>
 <body>
     <header>
-        <nav class="header">
-            <img class="logo" src="assets/images/hdLogo.png">
+        <div class="header">
+            <div id="hov">
+                <a href="#"><img class="logo" src="assets/images/hdLogo.png"></a>
+            </div>
+            
             <div class="title">
                 HARLEY-DAVIDSON INDIA
             </div>
-            <div class="navs">
+            <nav class="navs">
                 <ul class="nav-link">
                     <li><a href="index.html">HOME</a></li>
                     <li><a href="bikes.html">MOTORCYCLES</a></li>
@@ -26,8 +29,18 @@
                         </a>
                     </li>
                 </ul>
+            </nav>
+
+            <div class="dropdown">
+                
+                <ul id="dropdown-menu">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="bikes.html">MOTORCYCLES</a></li>
+                    <li><a href="form.html">BOOK YOUR RIDE!</a></li>
+                </ul>
             </div>
-        </nav>
+
+        </div>
     </header>   
     <section class="content">
         <h1>REGISTRATION FORM</h1>
@@ -127,8 +140,9 @@
     </footer>
     <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
     <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
-    <script type="text/javascript" src="js/script.js"></script>
-    <script type="text/javascript" src="js/dropdown.js"></script>
-    <script type="text/javascript" src="js/bikes-list.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/dropdown.js"></script>
+    <script src="js/bikes-list.js"></script>
+    <script src="js/mobile-drop.js"></script>
 </body>
 </html>
