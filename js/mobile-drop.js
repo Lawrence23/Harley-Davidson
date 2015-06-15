@@ -5,11 +5,6 @@ document.getElementById('hov').onclick = function () {
     document.getElementById('dropdown-menu').style.display = 'block';
   }
 }
-$('.logo').hover(function() {
-	document.getElementById('dropdown-menu').style.display = 'block';
-}, function() {
-	document.getElementById('dropdown-menu').style.display = 'none';
-});
 
 $('#dropdown-menu').hover(function() {
 	document.getElementById('dropdown-menu').style.display = 'block';

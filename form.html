@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="css/form.css">
     <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" type="text/css" href="css/responsiveform.css">
+    <link rel="stylesheet" media="screen and (max-width: 1200px) and (min-width: 601px)" href="css/responsiveform1.css" />
+    <link rel="stylesheet" media="screen and (max-width: 600px) and (min-width: 351px)" href="css/responsiveform2.css" />
+    <link rel="stylesheet" media="screen and (max-width: 350px)" href="css/responsiveform3.css" />
 </head>
 <body>
     <header>
@@ -15,7 +19,6 @@
             <div id="hov">
                 <a href="#"><img class="logo" src="assets/images/hdLogo.png"></a>
             </div>
-            
             <div class="title">
                 HARLEY-DAVIDSON INDIA
             </div>
@@ -32,7 +35,6 @@
             </nav>
 
             <div class="dropdown">
-                
                 <ul id="dropdown-menu">
                     <li><a href="index.html">HOME</a></li>
                     <li><a href="bikes.html">MOTORCYCLES</a></li>
@@ -44,75 +46,65 @@
     </header>   
     <section class="content">
         <h1>REGISTRATION FORM</h1>
-        <form class="contact-form" id="reg-form" action="index.html" method="post" name="contact-form">
-        <fieldset>
-            <ul>
-                <li>
-                    <input id="fname" name="fname" type="text" placeholder="First Name" required>
-                    <label for="fname">FIRST NAME</label>   
-                </li>
-                <li>
-                    <input id="lname" name="lname" type="text" placeholder="Last Name" required>
-                    <label for="lname">LAST NAME</label>    
-                </li>
-                <li>
-                    <input id="dob" name="dob" type="text" placeholder="Date of Birth" onchange="calcAge()" required>
-                    <label for="dob">DATE OF BIRTH</label>  
-                </li>
-                <li>
-                    <input id="ages" name="ages" type="text" value="" placeholder="Age" required>
-                    <label for="age">AGE</label>
-                </li>
-                <li>
-                    <label for="username" class="label-pos">GENDER</label>
-                    <input id="radio" name="radio" type="radio" value="Male" required/>MALE 
-                    <input id="radio" name="radio" type="radio" value="Female" required/>FEMALE
-                </li>
-                <li>
-                    <textarea id="address" name="textarea1" required></textarea>
-                    <label for="textarea1">ADDRESS</label>
-                </li>
-                <li>
-                    <label for="country">COUNTRY</label>
-                    <select name="country" class="country" id="sel_country" required> 
-                        <option value="0" selected="selected" class="s">Choose a Country</option>
-                    </select>
-                </li>
-                <li>
-                    <label for="state">STATE</label>
-                    <select name="state" class="state" id="sel_state" required> 
-                        <option value="0" selected="selected" class="s">Choose a State</option>
-                    </select>
-                </li>
-                <li>
-                    <label for="pass1">PASSWORD</label>
-                    <input name="pass1" id="pass1" type="password" required>
-                </li>
-                <li>
-                    <label for="pass2">CONFIRM PASSWORD</label>
-                    <input name="pass2" id="pass2" type="password" required>
-                   </li>
-                <li>
-                    <input id="tel" name="tel" type="text" onkeypress="return isNumberKey(event)" maxlength="10" required>
-                    <label for="icon_telephone">MOBILE NUMBER</label>
-                </li>
-                <li>
-                    <input id="mail" type="email" required>
-                    <label>E-MAIL ID</label>
-                </li>
-                <li>
-                    <label for="bikes">BIKE</label>
-                    <select name="bikes" class="bikes" id="sel_bikes" required> 
-                        <option value="0" selected="selected" class="s">Choose a Bike</option>
-                    </select>
-                </li>
-                <li>
-                    <div id="bike-img"></div>
-                </li>
-                <button class="submit" type="submit">SUBMIT</button>
-            </ul>
-        </fieldset>
-    </form>
+        <div id="envelope">
+            <form action="index.html" method="post">  
+                <label>FIRST NAME: </label>
+                <input id="fname" name="fname" type="text" placeholder="First Name" required width="100px;">
+                
+                <label>LAST NAME: </label>
+                <input id="lname" name="lname" type="text" placeholder="Last Name" required width="100px;">
+                
+                <label>DATE OF BIRTH: </label>
+                <input id="dob" name="dob" type="text" placeholder="Date of Birth" onchange="calcAge()" required width="100px;">
+                
+                <label>AGE: </label>
+                <input id="ages" name="ages" type="text" value="" placeholder="Age" required width="100px;">
+                
+                <br><br>
+                <label for="username" class="label-pos">GENDER: </label>
+                <input id="radio" name="radio" type="radio" value="Male" required/>
+                <span id="male">MALE</span> 
+                <input id="radio" name="radio" type="radio" value="Female" required/>
+                <span>FEMALE</span>
+                
+                <br><br><br>
+                <label>ADDRESS:</label>
+                <textarea id="address" name="textarea1" requiredrows="10" cols="15" placeholder="Address"></textarea>
+
+                <label>COUNTRY</label>
+                <select name="country" class="country" id="sel_country" width="100px;" required> 
+                    <option value="0" selected="selected" class="s">Choose a Country</option>
+                </select>
+
+                <label>STATE</label>
+                <select name="state" class="state" id="sel_state" required> 
+                    <option value="0" selected="selected" class="s">Choose a State</option>
+                </select>
+                
+                <label for="pass1">PASSWORD</label>
+                <input name="pass1" id="pass1" type="password" required>
+
+                <label for="pass2">CONFIRM PASSWORD</label>
+                <input name="pass2" id="pass2" type="password" required>
+
+                <label for="icon_telephone">MOBILE NUMBER</label>
+                <input id="tel" name="tel" type="text" onkeypress="return isNumberKey(event)" maxlength="10" required>
+                    
+                <label>E-MAIL ID</label>
+                <input id="mail" type="email" required>       
+                
+                <label for="bikes">BIKE</label>
+                <select name="bikes" class="bikes" id="sel_bikes" required> 
+                    <option value="0" selected="selected" class="s">Choose a Bike</option>
+                </select>
+                
+                <div id="bike-img"></div>
+                
+                <button class="submit" type="submit">SUBMIT</button>      
+            </form>
+        </div>
+         
+    
     </section>
     <footer>
         <section class="foot footer-logo">

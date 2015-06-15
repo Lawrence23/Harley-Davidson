@@ -1,0 +1,37 @@
+input[type=submit]
+{
+padding:4px;
+font-size:12px;
+}
+input[type=text],
+input[type=password],
+input[type=email],
+select {
+  padding: 8px; 
+}
+input[type=radio] {
+  margin-left: 0%;
+}
+label{
+font-size:12px;
+}
+span {
+	font-size: 12px;
+}
+#male {
+  margin-right: 36%;
+}
+div#envelope{
+width: 80%;
+margin: 10px 30% 10px 11%;
+}
+textarea {
+	width: 86%
+}
+select {
+	width: 105%;
+}
+button[type=submit] {
+	font-size:12px;
+	width: 105%;
+}

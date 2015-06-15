@@ -8,79 +8,26 @@
   	padding-bottom: 40px;
 }
 
-.contact-form fieldset {   
-    background: -webkit-linear-gradient(90deg, #CCCCCC, #FFFFFF) repeat scroll 0 0 transparent;
-    background: -moz-linear-gradient(90deg, #CCCCCC, #FFFFFF) repeat scroll 0 0 transparent;
-    border: 1px solid #AAAAAA;
-    border-radius: 10px 10px 10px 10px;
-    padding: 20px 0px 35px 0px;
-    margin-top: 1%;
-    color: #000;
-    font-size: 14px;
-    width: 350px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.contact-form label {
+label {
     width:150px;
     margin-top: 3px;
     display:inline-block;
     float:left;
     padding:3px;
+    font-size: 14px;
 }
-.contact-form label.label-pos {
+label.label-pos {
 	margin-top: 0px;
     padding-top: 0px;
 }
 
-
-.contact-form ul {
-    width:750px;
-    list-style-type:none;
-    list-style-position:outside;
-    margin:0px;
-    padding:0px;
-}
-
-.contact-form li {
-    padding: 12px 0px 15px 70px;
- 	position: relative;
-	display: block;
-  	width: 500px;
- 	margin: auto
-}
-
-.contact-form span.error {
+span.error {
     color: #b03535;
-    float: left;
-    padding-left: 156px;
+    float: right;
 }
 
-.contact-form input#fname, 
-.contact-form input#lname,
-.contact-form input#dob,
-.contact-form input#ages,
-.contact-form input#pass1,
-.contact-form input#pass2,
-.contact-form input#tel,
-.contact-form input#mail {
-    height:20px; 
-    width:240px; 
-    padding:5px 8px;
-    border:1px solid #aaa;
-    -moz-border :1px solid #aaa;
-    box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
-    border-radius:2px;
-    /* padding-right:30px; */
-    -moz-transition: padding .25s; 
-    -webkit-transition: padding .25s; 
-    -o-transition: padding .25s;
-    transition: padding .25s;
-}
-
-.contact-form textarea,
-.contact-form select { 
+textarea,
+select { 
     border:1px solid #aaa;
     -moz-border :1px solid #aaa;
     box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
@@ -90,72 +37,56 @@
     -webkit-transition: padding .25s; 
     -o-transition: padding .25s;
     transition: padding .25s;
+    background: #fff; 
 }
 
-.contact-form textarea {
-	padding:8px; 
-	width:240px;
-}
-
-.contact-form select.country, .contact-form select.state, .contact-form select.bikes {
-	width: 260px;
-  	height: 32px;
-  	background-color: #fff;	
-}
 .country option, .state option, .bikes option {
     color: #000;
 }
-
-.contact-form input#fname:focus, 
-.contact-form input#lname:focus,
-.contact-form input#dob:focus,
-.contact-form input#ages:focus,
-.contact-form input#pass1:focus,
-.contact-form input#pass2:focus,
-.contact-form input#tel:focus,
-.contact-form input#mail:focus,
-.contact-form textarea:focus,
-.contact-form select:focus{
-    background: #fff; 
-    border:1px solid #555; 
-    box-shadow: 0 0 3px #aaa; 
-    padding-right:70px;
+span {
+    font-size: 14px;
+}
+#male {
+    margin-right: inherit;
+}
+input[type=radio] {
+    margin-left: 13%;
 }
 
-.contact-form input#fname:focus:invalid, 
-.contact-form input#lname:focus:invalid,
-.contact-form input#dob:focus:invalid,
-.contact-form input#ages:focus:invalid,
-.contact-form input#pass1:focus:invalid,
-.contact-form input#pass2:focus:invalid,
-.contact-form input#tel:focus:invalid,
-.contact-form input#mail:focus:invalid,
-.contact-form textarea:focus:invalid  { /* when a field is considered invalid by the browser */
+input#fname:focus:invalid, 
+input#lname:focus:invalid,
+input#dob:focus:invalid,
+input#ages:focus:invalid,
+input#pass1:focus:invalid,
+input#pass2:focus:invalid,
+input#tel:focus:invalid,
+input#mail:focus:invalid,
+textarea:focus:invalid  { /* when a field is considered invalid by the browser */
     background: #fff url(../assets/images/invalid.png) no-repeat 98% center;
     box-shadow: 0 0 5px #d45252;
     border-color: #b03535
 }
 
-.contact-form input#fname:required:valid, 
-.contact-form input#lname:required:valid,
-.contact-form input#dob:required:valid,
-.contact-form input#ages:required:valid,
-.contact-form input#pass1:required:valid,
-.contact-form input#pass2:required:valid,
-.contact-form input#tel:required:valid,
-.contact-form input#mail:required:valid,
-.contact-form textarea:required:valid  { /* when a field is considered valid by the browser */
+input#fname:required:valid, 
+input#lname:required:valid,
+input#dob:required:valid,
+input#ages:required:valid,
+input#pass1:required:valid,
+input#pass2:required:valid,
+input#tel:required:valid,
+input#mail:required:valid,
+textarea:required:valid  { /* when a field is considered valid by the browser */
     background: #fff url(../assets/images/valid.png) no-repeat 98% center;
     box-shadow: 0 0 5px #5cd053;
     border-color: #28921f;
 }
 
-.contact-form select:focus:invalid {
+select:focus:invalid {
 	box-shadow: 0 0 5px #d45252;
     border-color: #b03535
 }
 
-.contact-form select:required:valid {
+select:required:valid {
 	box-shadow: 0 0 5px #5cd053;
     border-color: #28921f;
 }
@@ -166,7 +97,6 @@
 .s {
 	display: none;
 }
-
 
 button.submit {
     background-color: #68b12f;
@@ -209,20 +139,7 @@ button.submit:active {
     -o-box-shadow: 0 0 10px 5px #356b0b inset;
 }
 #bike-img img {
-	max-width: 83%;
+	max-width: 99%;
    	border: 2px solid;
-}
-
-@media only screen and (min-width: 320px) and (max-width: 350px) {
-    .contact-form fieldset {
-        width: auto;
-    }
-
-    .contact-form li {
-        padding: 0px 0px 0px 0px;
-        position: relative;
-        display: block;
-        width: auto;
-        margin: auto
-    }   
+    margin-bottom: 5%;
 }
